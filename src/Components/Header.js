@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Button, Container, FormControl, Navbar, Nav, Form} from "react-bootstrap";
-import logo from './logo192.png'
 import {BrowserRouter as Router, Link} from "react-router-dom";
 import {Routes, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,13 +19,6 @@ class Header extends Component {
                 <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
                     <Container>
                         <Navbar.Brand href="/">
-                            <img
-                                src={logo}
-                                height="30"
-                                width="30"
-                                className="d-inline-block align-top"
-                                alt="Logo"
-                            />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav" className="nav-header">
